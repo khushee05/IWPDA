@@ -1,0 +1,166 @@
+
+
+.signUpBody {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    font-family: "lato", sans-serif;
+    justify-content: center;
+  }
+#loginstart{
+    margin-bottom: 25px;
+}
+  .signupForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12em;
+    /* height: 100vh; */
+  }
+
+  .sgform {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  }
+  
+  #signup {
+    font-size: 50px;
+    margin-bottom: 8px;
+  }
+
+  .FormContainer {
+    position: relative;
+    height: 60px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+
+  .inputField {
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    height: 70%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    border-color: #9867C5;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+
+  
+.label {
+     /* position: absolute;  */
+    top: 27px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #9867C5;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+  #signUpBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  #signUpBtn:hover {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+  }
+
+  .inputField:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: purple;
+  }
+
+  .inputField:focus {
+    border: 2px solid purple;
+    
+  }
+
+  .inputField:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #title{
+     position: absolute;
+     top:170px;
+  }
+
+  #base{
+      position: absolute;
+      top:690px;
+      left: 610px;
+      font-size: 20px;
+  }
+
+  #adminLogin{
+    position: absolute;
+    font-size: 20px;
+    top: 500px;
+  }
+  
+  #logtitle{
+    position: absolute;
+    top:170px;
+ }
+  
+ .loginBtn {
+ background-color: #9867C5;
+ display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#basetwo{
+  
+  display: inline-block;
+  margin-left: 35%;
+  font-size: 20px;
+}
+
+#basethree{
+  
+  display: inline-block;
+  margin-left: 18%;
+  font-size: 20px;
+}
+#admintitle{
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+ 
+
